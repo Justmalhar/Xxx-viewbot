@@ -11,7 +11,7 @@ class Viewbot:
         self.ua = UserAgent()
 
     def ui(self):
-        os.system('cls && title Youtube Viewbot ^| github.com/Plasmonix' if os.name == "nt" else 'clear') 
+        os.system('cls && title View' if os.name == "nt" else 'clear') 
         print(f"""{Fore.RED}                                                           
          __ __         _       _          _____ _           _       _     
         |  |  |___ _ _| |_ _ _| |_ ___   |  |  |_|___ _ _ _| |_ ___| |_   
